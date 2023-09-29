@@ -1,2 +1,6 @@
 #!/bin/sh
-/bin/sh -c 'while :; do sleep 6h & wait $${!}; nginx -s reload; done;'
+while true
+do
+  echo "it works!!!!"
+  sleep 10
+done
