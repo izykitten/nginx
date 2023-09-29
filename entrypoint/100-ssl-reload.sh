@@ -1,6 +1,6 @@
 #!/bin/sh
 while true
 do
-  echo "it works!!!!"
+  nginx -s reload
   sleep 10
 done
